@@ -1,0 +1,6 @@
+/resume https://assets.kothavade.com/resume.pdf
+/gh https://github.com/kothavade
+/gh/* https://github.com/kothavade/:splat
+/srht https://sr.ht/~ved
+/linkedin https://www.linkedin.com/in/kothavade/
+/li https://www.linkedin.com/in/kothavade/
