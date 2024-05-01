@@ -13,14 +13,14 @@ body {
 
 @media (max-width: 480px) {
     html {
-      margin-top: 30%;
       align-items: flex-start;
     }
     body {
         padding: 0 5%;
+        max-width: 100%;
     }
     i, a {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
 }
 
