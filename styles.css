@@ -8,24 +8,21 @@ html {
 
 body {
     max-width: 400px;
-    color: black;
-}
-
-@media (max-width: 480px) {
-    html {
-      align-items: flex-start;
-    }
-    body {
-        padding: 0 5%;
-        max-width: 100%;
-    }
-    i, a {
-      font-size: 1.2rem;
-    }
+    color: #454545;
+    background-color: #EEEEEE;
 }
 
 h1 {
     line-height: 2rem;
+}
+
+i, a {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+a, a:visited {
+    color: #07a;
 }
 
 .social-container{
@@ -40,19 +37,21 @@ h1 {
     margin: 0% 2.5%;
 }
 
-a {
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
 @media (prefers-color-scheme: dark) {
     html, img, video, iframe {
-        filter: invert(.9) hue-rotate(180deg);
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+      align-items: flex-start;
     }
     body {
-        background-color: white;
+        padding: 0 5%;
+        max-width: 100%;
+    }
+    i, a {
+      font-size: 1.2rem;
     }
 }
